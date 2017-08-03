@@ -1,0 +1,16 @@
+.icon {
+  background-image: spritus-url("assets/images/auth/1x/*.png");
+  background-size: spritus-size("assets/images/auth/1x/*.png");
+}
+
+.icon-google {
+  background-position: spritus-position("assets/images/auth/1x/*.png", "google.png");
+  height: spritus-height("assets/images/auth/1x/*.png", "google.png");
+  width: spritus-width("assets/images/auth/1x/*.png", "google");
+}
+
+.icon-vk {
+  background-position: spritus-position("assets/images/auth/1x/*.png", "vk.png");
+  height: spritus-height("assets/images/auth/1x/*.png", "vk.png");
+  width: spritus-width("assets/images/auth/1x/*.png", "vk");
+}
