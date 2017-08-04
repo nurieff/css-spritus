@@ -50,7 +50,7 @@ Spritus.prototype.replace = function(finishCallback) {
 Spritus.prototype.saveTo = function(filepath) {
 
   if (filepath.indexOf('/') !== 0) {
-    filepath = this.rootPath = filepath;
+    filepath = this.rootPath + filepath;
   }
 
   this.replace(function(cssContent) {
